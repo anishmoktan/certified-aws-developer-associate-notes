@@ -1,6 +1,6 @@
-# Certified AWS Associate Developer Notes
+# Certified AWS Developer - Associate Notes
 
-### 2021 AWS developer associate exam 
+### 2024 AWS Developer Associate Exam 
 
 ## Table of contents
 
@@ -31,23 +31,23 @@
     - [Integration and Messaging](2-aws-deep-dive/integration-and-messaging/0-intro.md)
         - [SQS](2-aws-deep-dive/integration-and-messaging/1-sqs.md)
         - [SNS](2-aws-deep-dive/integration-and-messaging/2-sns.md)
-        - Kinesis
+        - [Kinesis](2-aws-deep-dive/integration-and-messaging/3-kinesis.md)
 
 - [YAML](2-aws-deep-dive/yaml.md)
 
 - [AWS Serverless](3-aws-serverless/serverless.md)
-  - Lambda
-  - DynamoDB
-  - API Gateway
-  - Cognito
+  - [Lambda](3-aws-serverless/lambda.md)
+  - [DynamoDB](3-aws-serverless/dynamodb.md)
+  - [API Gateway](3-aws-serverless/apigateway.md)
+  - [SAM](3-aws-serverless/sam.md)
+  - [Cognito](3-aws-serverless/cognito.md)
+  - [Step Functions](3-aws-serverless/stepfunctions.md)
+  - [AppSync](3-aws-serverless/appsync.md)
 
 - Docker based AWS services
   - ECS: Elastic Container Service
   - Elastic Container Registry
   - Fargate
-
-- [Exam Preperation](#exam-preparation)
-
 
 ## Exam Preparation
 
@@ -64,7 +64,7 @@
         - Monitoring and Troubleshooting: CloudWAtch, CloudTrail, X-Ray
 
     - Exam Guide:
-        - [Certified Developer - Associate Exam PDF](https://d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS_Certified_Developer_Associate-Exam_Guide_EN_1.4.pdf)
+        - [Certified Developer - Associate Exam PDF](https://d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS-Certified-Developer-Associate_Exam-Guide.pdf)
 
 - EC2 + IAM Exam Checklist
   * Know how to SSH into EC2 (and change .pem file permissions) 
@@ -79,3 +79,7 @@
   * If you are getting a permission error exception when trying to SSH into your linux instance, then the key is missing chmod 400 permissions
   * If you are getting a network timeout when trying to SSH into your EC2 instance, then your security groups are misconfigured
   * Security groups reference IP address, CIDR block, Security group, but NOT DNS name
+
+# Contributors
+
+Please feel free to contribute by making a Pull Request!
